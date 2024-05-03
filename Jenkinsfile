@@ -5,7 +5,7 @@ pipeline
    timestamps() 
    overrideIndexTriggers(false)
   }
-  stage
+  stages{
    stage('Build')
    {
     steps{
