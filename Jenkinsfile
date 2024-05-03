@@ -9,7 +9,7 @@ pipeline
    stage('Build')
    {
     steps{
-     echo "hello world dff"
+     echo "hello world dff svdvsv"
     }
    } 
    }
