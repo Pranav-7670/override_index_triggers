@@ -3,13 +3,13 @@ pipeline
   agent any
   options{
    timestamps() 
-   //overrideIndexTriggers(false)
+   overrideIndexTriggers(false)
   }
-  stages{
+  stage
    stage('Build')
    {
     steps{
-     echo "hello world dff svdvsv"
+     echo "hello world dff svdvsvsvsv2312"
     }
    } 
    }
